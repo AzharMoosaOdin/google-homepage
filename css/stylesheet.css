@@ -26,18 +26,16 @@ a {
 }
 
 #header a {
-	color: #333;
+	
 	margin: 16px 6px;
 }
 
-#header .left-side {
+.left-side {
 	float: left;
-	text-align: center;
 }
 
-#header .right-side {
+.right-side {
 	float: right;
-	text-align: center;
 }
 
 #header .right-side a:last-child {
@@ -79,6 +77,20 @@ a {
 	border-radius: 4px;
 }
 
+/* Footer */
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	background-color: #f2f2f2;
+	width: 100%;
+	height: 41px;
+	padding: 12px;
+}
+
+#footer a{
+	margin: 12px;
+}
 
 
 
